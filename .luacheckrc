@@ -1,2 +1,6 @@
 
-read_globals = {"minetest", "core",}
+globals = {
+	"minetest",
+	"core",
+	"mineral",
+}
