@@ -35,6 +35,7 @@ This mod is an attempt to unify minerals, such as ores & gems, to reduce depende
 ### Links:
 
 - [Git repo](https://github.com/AntumMT/mod-mineral)
+- [API](https://antummt.github.io/mod-mineral/docs/api.html)
 
 
 [mod.default]: https://github.com/minetest/minetest_game/tree/master/mods/default
