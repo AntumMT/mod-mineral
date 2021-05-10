@@ -1,0 +1,396 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Minerals for Minetest</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>minerals</h1>
+
+
+<ul>
+  <li><a href="../api.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+<li><a href="#Definition_Tables">Definition Tables </a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="nowrap">
+  <li><strong>api.lua</strong></li>
+  <li><a href="../modules/settings.lua.html">settings.lua</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>api.lua</code></h1>
+<p>Main functions for mineral registration</p>
+<p>
+
+</p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#mineral.register_item">mineral.register_item (def)</a></td>
+	<td class="summary">Registers a new craft item.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#mineral.register_node">mineral.register_node (def)</a></td>
+	<td class="summary">Registers a new node.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#mineral.register_ore">mineral.register_ore (def)</a></td>
+	<td class="summary">Registers a new ore.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#mineral.register">mineral.register (defs)</a></td>
+	<td class="summary">Registers a new mineral</td>
+	</tr>
+</table>
+<h2><a href="#Definition_Tables">Definition Tables </a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#MineralDef">MineralDef</a></td>
+	<td class="summary">Mineral Definition</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ItemDef">ItemDef</a></td>
+	<td class="summary">Item Definition</p>
+
+<p>  Same as definition for <a href="https://minetest.gitlab.io/minetest/definition-tables/#item-definition">minetest.register_craftitem</a>
+  except also requires <strong><em>name</em></strong> field.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#NodeDef">NodeDef</a></td>
+	<td class="summary">Node Definition</p>
+
+<p>  Same as definition used for <a href="https://minetest.gitlab.io/minetest/definition-tables/#node-definition">minetest.register_node</a>
+  except also requires <strong><em>name</em></strong> field.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#OreDef">OreDef</a></td>
+	<td class="summary">Ore Definition</p>
+
+<p>  Same as definition used for <a href="https://minetest.gitlab.io/minetest/definition-tables/#ore-definition">minetest.register_ore</a>.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "mineral.register_item"></a>
+    <strong>mineral.register_item (def)</strong>
+    </dt>
+    <dd>
+    Registers a new craft item.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">def</span>
+            <span class="types"><a class="type" href="../modules/api.lua.html#ItemDef">ItemDef</a></span>
+         Item definition.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "mineral.register_node"></a>
+    <strong>mineral.register_node (def)</strong>
+    </dt>
+    <dd>
+    Registers a new node.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">def</span>
+            <span class="types"><a class="type" href="../modules/api.lua.html#NodeDef">NodeDef</a></span>
+         Node definition.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "mineral.register_ore"></a>
+    <strong>mineral.register_ore (def)</strong>
+    </dt>
+    <dd>
+    Registers a new ore.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">def</span>
+            <span class="types"><a class="type" href="../modules/api.lua.html#OreDef">OreDef</a></span>
+         Ore definition.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "mineral.register"></a>
+    <strong>mineral.register (defs)</strong>
+    </dt>
+    <dd>
+    Registers a new mineral
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">defs</span>
+            <span class="types"><a class="type" href="../modules/api.lua.html#MineralDef">MineralDef</a></span>
+         Mineral definition
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+    <h2 class="section-header "><a name="Definition_Tables"></a>Definition Tables </h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "MineralDef"></a>
+    <strong>MineralDef</strong>
+    </dt>
+    <dd>
+    Mineral Definition
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">item</span>
+            <span class="types"><a class="type" href="../modules/api.lua.html#ItemDef">ItemDef</a></span>
+         Item definition.
+         (<em>optional</em>)
+        </li>
+        <li><span class="parameter">node</span>
+            <span class="types"><a class="type" href="../modules/api.lua.html#NodeDef">NodeDef</a></span>
+         Node definition.
+         (<em>optional</em>)
+        </li>
+        <li><span class="parameter">ore</span>
+            <span class="types"><a class="type" href="../modules/api.lua.html#OreDef">OreDef</a></span>
+         Ore definition.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ItemDef"></a>
+    <strong>ItemDef</strong>
+    </dt>
+    <dd>
+    Item Definition</p>
+
+<p>  Same as definition for <a href="https://minetest.gitlab.io/minetest/definition-tables/#item-definition">minetest.register_craftitem</a>
+  except also requires <strong><em>name</em></strong> field.  Can optionally contain
+  <strong><em>replaces</em></strong> field to register this item as a replacement
+  for another.</p>
+
+<p>  Example:</p>
+<pre><code>  {
+    name            = "mineral:iron_lump",
+    description     = "Iron Lump",
+    inventory_image = "mineral_iron_lump.png",
+    replaces        = "default:iron_lump",
+  }
+</code></pre>
+
+<p>  FIXME: <em>replaces</em> should optionally be table value.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "NodeDef"></a>
+    <strong>NodeDef</strong>
+    </dt>
+    <dd>
+    Node Definition</p>
+
+<p>  Same as definition used for <a href="https://minetest.gitlab.io/minetest/definition-tables/#node-definition">minetest.register_node</a>
+  except also requires <strong><em>name</em></strong> field.  Can optionally contain
+  <strong><em>replaces</em></strong> field to register this node as a replacement
+  for another.</p>
+
+<p>  Example:</p>
+<pre><code>  {
+    name        = "mineral:stone_with_iron",
+    description = "Iron Ore",
+    tiles       = {"mineral_stone.png^mineral_mineral_iron.png"},
+    groups      = {cracky = 2},
+    drop        = "mineral:iron_lump",
+    sounds      = default.node_sound_stone_defaults(),
+    replaces    = "default:stone_with_iron",
+  }
+</code></pre>
+
+<p>  FIXME: <em>replaces</em> should optionally be table value.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "OreDef"></a>
+    <strong>OreDef</strong>
+    </dt>
+    <dd>
+    Ore Definition</p>
+
+<p>  Same as definition used for <a href="https://minetest.gitlab.io/minetest/definition-tables/#ore-definition">minetest.register_ore</a>.
+  Can optionally contain <strong><em>replaces</em></strong> field to register
+  this ore as a replacement for another.</p>
+
+<p>  Example:</p>
+<pre><code>  {
+    ore_type       = "scatter",
+    ore            = "mineral:stone_with_iron",
+    wherein        = "default:stone",
+    clust_scarcity = 9 * 9 * 9,
+    clust_num_ores = 12,
+    clust_size     = 3,
+    y_max          = 31000,
+    y_min          = 1025,
+    replaces       = "default:stone_with_iron",
+  }
+</code></pre>
+
+<p>  FIXME: <em>replaces</em> should optionally be table value.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.6</a></i>
+<i style="float:right;">Last updated 2021-05-09 18:41:59 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>
