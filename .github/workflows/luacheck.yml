@@ -1,2 +1,8 @@
-- name: luacheck
-  uses: nebularg/actions-luacheck@v1.1.0
+name: Luacheck
+
+on: [push, pull_request]
+
+jobs:
+  luacheck:
+    steps:
+      - uses: nebularg/actions-luacheck@v1.1.0
