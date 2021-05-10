@@ -1,0 +1,3 @@
+
+TODO:
+- prevent "cooking" craft recipes from default from breaking when items are overridden

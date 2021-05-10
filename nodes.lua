@@ -1,0 +1,66 @@
+
+local S = core.get_translator(mineral.modname)
+
+
+-- FIXME: depends on sounds & textures from default
+
+local nodes = {
+	{
+		name        = "stone_with_coal",
+		description = S("Coal Ore"),
+		tiles       = {"default_stone.png^mineral_overlay_coal.png"},
+		groups      = {cracky = 3},
+		drop        = "mineral:coal_lump",
+		sounds      = default.node_sound_stone_defaults(),
+	},
+	{
+		name        = "stone_with_copper",
+		description = S("Copper Ore"),
+		tiles       = {"default_stone.png^mineral_overlay_copper.png"},
+		groups      = {cracky = 2},
+		drop        = "mineral:copper_lump",
+		sounds      = default.node_sound_stone_defaults(),
+	},
+	{
+		name        = "stone_with_diamond",
+		description = S("Diamond Ore"),
+		tiles       = {"default_stone.png^mineral_overlay_diamond.png"},
+		groups      = {cracky = 1},
+		drop        = "mineral:diamond",
+		sounds      = default.node_sound_stone_defaults(),
+	},
+	{
+		name        = "stone_with_gold",
+		description = S("Gold Ore"),
+		tiles       = {"default_stone.png^mineral_overlay_gold.png"},
+		groups      = {cracky = 2},
+		drop        = "mineral:gold_lump",
+		sounds      = default.node_sound_stone_defaults(),
+	},
+	{
+		name = "stone_with_iron",
+		description = S("Iron Ore"),
+		tiles = {"default_stone.png^mineral_overlay_iron.png"},
+		groups = {cracky = 2},
+		drop = "mineral:iron_lump",
+		sounds = default.node_sound_stone_defaults(),
+	},
+	{
+		name = "stone_with_tin",
+		description = S("Tin Ore"),
+		tiles = {"default_stone.png^mineral_overlay_tin.png"},
+		groups = {cracky = 2},
+		drop = "mineral:tin_lump",
+		sounds = default.node_sound_stone_defaults(),
+	},
+}
+
+
+for _, new_node in ipairs(nodes) do
+	if mineral.replace_default then
+		new_node.replaces = "default:" .. new_node.name
+	end
+
+	new_node.name = "mineral:" .. new_node.name
+	mineral.register({node=new_node,})
+end
