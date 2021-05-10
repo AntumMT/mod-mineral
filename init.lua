@@ -25,6 +25,7 @@ local scripts = {
 	"items",
 	"nodes",
 	"ores",
+	"crafts",
 }
 
 for _, script in ipairs(scripts) do
