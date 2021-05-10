@@ -1,4 +1,4 @@
-name: Luacheck
+name: lua_lint
 
 on: [push, pull_request]
 
@@ -6,4 +6,17 @@ jobs:
   luacheck:
     runs-on: ubuntu-latest
     steps:
-      - uses: nebularg/actions-luacheck@v1.1.0
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Install luarocks
+      run: |
+        sudo apt-get install luarocks -qyy
+
+    - name: Install luacheck
+      run: |
+        sudo luarocks install luacheck
+
+    - name: Run checks
+      run: |
+        luacheck ./
