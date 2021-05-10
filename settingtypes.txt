@@ -1,0 +1,3 @@
+
+# Replace nodes specified in `MineralDef.replace`
+mineral.enable_node_replace (Node replacement) bool true
