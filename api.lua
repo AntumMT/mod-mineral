@@ -147,7 +147,7 @@ end
 --      {
 --        name        = "mineral:stone_with_iron",
 --        description = "Iron Ore",
---        tiles       = {"mineral_stone.png^mineral_mineral_iron.png"},
+--        tiles       = {"default_stone.png^mineral_overlay_iron.png"},
 --        groups      = {cracky = 2},
 --        drop        = "mineral:iron_lump",
 --        sounds      = default.node_sound_stone_defaults(),
