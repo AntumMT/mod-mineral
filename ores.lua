@@ -196,11 +196,11 @@ local ores = {
 	},
 }
 
-if mineral.replace_default then
-	ores[1].replaces = "default:stone_with_iron"
-end
-
 
 for _, new_ore in ipairs(ores) do
+	if mineral.replace_default then
+		new_ore.replaces = "default:stone_with_" .. new_ore.ore:gsub("^mineral:stone_with_", "")
+	end
+
 	mineral.register({ore=new_ore,})
 end
