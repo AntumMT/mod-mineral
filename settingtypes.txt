@@ -1,3 +1,6 @@
 
 # Replace nodes specified in `MineralDef.replace`
 mineral.enable_node_replace (Node replacement) bool false
+
+# The node wherein minerals will appear.
+mineral.source (Mineral source) string default:stone
