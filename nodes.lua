@@ -2,7 +2,7 @@
 local S = core.get_translator(mineral.modname)
 
 
--- FIXME: depends on sounds & textures from default
+-- FIXME: depends on textures from default
 local stone_texture = "default_stone.png"
 local snd = {
 	stone = sounds.node_stone(),
