@@ -5,3 +5,4 @@ TODO:
 - add settings to disable individual minerals
 - include node underlay texture to use by default instead of using default_stone.png
 - re-create overlay textures
+- use more generic setting than "mineral.replace_default"
