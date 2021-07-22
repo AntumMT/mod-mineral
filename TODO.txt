@@ -6,3 +6,57 @@ TODO:
 - include node underlay texture to use by default instead of using default_stone.png
 - re-create overlay textures
 - use more generic setting than "mineral.replace_default"
+- possibley add minerals ( https://geology.com/minerals/ ):
+	- lithium
+	- feldspar
+	- beryllium/beryl
+	- aluminum
+	- chromite
+	- fluorite
+	- manganese
+	- mica
+	- phosphate
+	- pyrite
+	- adamantine/adamantite
+	- tungsten
+	- clay
+	- bauxite
+	- gallium
+	- halite
+	- agate
+	- azurite
+	- zircon
+	- sunstone
+	- lapis ( https://github.com/minetest-mods/lapis )
+	- moreores ( https://github.com/minetest-mods/moreores ):
+		- silver
+		- mithril
+	- xtraores ( https://forum.minetest.net/viewtopic.php?t=12798 ):
+		- nickel
+		- platinum
+		- cobalt
+		- titanium
+		- uranium
+		- chromium
+	- rainbow ( https://forum.minetest.net/viewtopic.php?t=13519 )
+	- amber ( https://forum.minetest.net/viewtopic.php?t=18186 )
+	- quartz ( https://content.minetest.net/packages/Evergreen/quartz/ )
+	- technic ( https://content.minetest.net/packages/RealBadAngel/technic/ ):
+		- lead
+		- uranium
+		- marble
+		- granite
+		- zinc
+		- chromium
+		- sulfer
+	- gems_tools ( https://github.com/AntumMT/mod-gems_tools ):
+		- ruby
+		- emerald
+		- sapphire
+		- amethyst
+	- gems_encrustable ( https://github.com/AntumMT/mod-gems_encrustable ):
+		- diamond
+		- garnet
+		- aquamarine
+		- topaz
+		- opal
