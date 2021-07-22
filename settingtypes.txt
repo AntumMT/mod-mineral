@@ -3,4 +3,4 @@
 mineral.enable_node_replace (Node replacement) bool false
 
 # The node wherein minerals will appear.
-mineral.source (Mineral source) string default:stone
+mineral.ore_source (Ore source) string default:stone

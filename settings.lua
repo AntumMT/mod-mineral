@@ -13,7 +13,7 @@ mineral.replace_default = core.settings:get_bool("mineral.replace_default", fals
 
 --- The node wherein minerals will appear.
 --
---  @setting mineral.source
+--  @setting mineral.ore_source
 --  @settype string
 --  @default default:stone
-mineral.source = core.settings:get("mineral.source") or "default:stone"
+mineral.ore_source = core.settings:get("mineral.ore_source") or "default:stone"
