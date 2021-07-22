@@ -17,3 +17,10 @@ mineral.replace_default = core.settings:get_bool("mineral.replace_default", fals
 --  @settype string
 --  @default default:stone
 mineral.ore_source = core.settings:get("mineral.ore_source") or "default:stone"
+
+--- Underlay texture used for ore nodes.
+--
+--  @setting mineral.ore_underlay
+--  @settype string
+--  @default default_stone.png
+mineral.ore_underlay = core.settings:get("mineral.ore_underlay") or "default_stone.png"

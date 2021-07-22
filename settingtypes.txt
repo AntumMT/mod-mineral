@@ -4,3 +4,6 @@ mineral.enable_node_replace (Node replacement) bool false
 
 # The node wherein minerals will appear.
 mineral.ore_source (Ore source) string default:stone
+
+# Underlay texture used for ore nodes.
+mineral.ore_underlay (Ore underlay image) string default_stone.png
