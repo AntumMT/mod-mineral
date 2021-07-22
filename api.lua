@@ -45,8 +45,10 @@ function mineral.register_node(def)
 
 	core.register_node(name, def)
 	if replaces and core.registered_nodes[replaces] then
-		core.register_abm({
+		core.register_lbm({
+			name = mineral.modname .. ":replace_node_" .. replaces,
 			nodenames = {replaces},
+			run_at_every_load = true,
 			action = function(pos)
 				core.swap_node(pos, core.registered_nodes[name])
 			end,
