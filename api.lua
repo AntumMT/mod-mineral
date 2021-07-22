@@ -4,6 +4,15 @@
 --  @module api.lua
 
 
+local disabled_minerals = {}
+
+--- Checks if a mineral type is disabled.
+--
+--  @tparam string mname Mineral name.
+function mineral.is_disabled(mname)
+	return disabled_minerals[mname] == true
+end
+
 --- Registers a new craft item.
 --
 --  @function mineral.register_item
