@@ -3,3 +3,5 @@ TODO:
 - prevent "cooking" craft recipes from default from breaking when items are overridden
 - allow "replaces" fields to be table
 - add settings to disable individual minerals
+- include node underlay texture to use by default instead of using default_stone.png
+- re-create overlay textures
