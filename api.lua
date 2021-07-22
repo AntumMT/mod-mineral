@@ -82,8 +82,7 @@ function mineral.register_ore(def)
 		end
 
 		for _, id in ipairs(registered_ids) do
-			-- FIXME: is this okay to do?
-			--core.registered_ores[id] = nil
+			core.registered_ores[id] = nil
 		end
 	end
 end
