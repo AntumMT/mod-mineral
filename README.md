@@ -2,7 +2,7 @@
 
 ### Description:
 
-This mod is an attempt to unify minerals, such as ores & gems, to reduce dependencies on [MTG](https://github.com/minetest/minetest_game) & [default][mod.default].
+This mod is an attempt to unify minerals, such as ores & gems, to reduce dependencies on [MTG](https://github.com/minetest/minetest_game) & [default].
 
 ***WARNING:** It is not currently recommended to use this mod as it will break "cooking" craft recipes*
 
@@ -28,7 +28,7 @@ This mod is an attempt to unify minerals, such as ores & gems, to reduce depende
   - mineral_tin_lump.png
 - PilzAdam ([CC BY-SA 3.0]):
   - mineral_overlay_gold.png
-- taken from [default][mod.default] (assumed to be [CC BY-SA 3.0]):
+- taken from [default] (assumed to be [CC BY-SA 3.0]):
   - mineral_overlay_coal.png
   - mineral_overlay_iron.png
 
@@ -39,7 +39,6 @@ This mod is an attempt to unify minerals, such as ores & gems, to reduce depende
 - [API](https://antummt.github.io/mod-mineral/docs/api.html)
 
 
-[mod.default]: https://github.com/minetest/minetest_game/tree/master/mods/default
-
+[default]: https://github.com/minetest-game/default
 
 [CC BY-SA 3.0]: https://creativecommons.org/licenses/by-sa/3.0/
