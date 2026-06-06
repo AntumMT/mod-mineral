@@ -9,26 +9,26 @@ This mod is an attempt to unify minerals, such as ores & gems, to reduce depende
 ### Licensing:
 
 - Code: [MIT](LICENSE.txt)
-- Textures by BlockMen (CC BY-SA 3.0):
+- Textures by BlockMen ([CC BY-SA 3.0]):
   - mineral_diamond.png
-- Calinou (CC BY-SA 3.0):
+- Calinou ([CC BY-SA 3.0]):
   - mineral_overlay_copper.png
-- Textures by Cisoun (CC BY-SA 3.0):
+- Textures by Cisoun ([CC BY-SA 3.0]):
   - mineral_stone.png
-- Textures by Gambit (CC BY-SA 3.0):
+- Textures by Gambit ([CC BY-SA 3.0]):
   - mineral_clay_lump.png
   - mineral_coal_lump.png
   - mineral_copper_lump.png
   - mineral_gold_lump.png
   - mineral_iron_lump.png
-- Textures by InfinityProject (CC BY-SA 3.0):
+- Textures by InfinityProject ([CC BY-SA 3.0]):
   - mineral_overlay_diamond.png
-- Textures by kilbith (CC BY-SA 3.0):
+- Textures by kilbith ([CC BY-SA 3.0]):
   - mineral_overlay_tin.png
   - mineral_tin_lump.png
-- PilzAdam (CC BY-SA 3.0):
+- PilzAdam ([CC BY-SA 3.0]):
   - mineral_overlay_gold.png
-- taken from [default][mod.default] (assumed to be CC BY-SA 3.0):
+- taken from [default][mod.default] (assumed to be [CC BY-SA 3.0]):
   - mineral_overlay_coal.png
   - mineral_overlay_iron.png
 
@@ -39,3 +39,6 @@ This mod is an attempt to unify minerals, such as ores & gems, to reduce depende
 
 
 [mod.default]: https://github.com/minetest/minetest_game/tree/master/mods/default
+
+
+[CC BY-SA 3.0]: https://creativecommons.org/licenses/by-sa/3.0/
