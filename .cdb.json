@@ -1,0 +1,20 @@
+{
+	"$schema": "https://content.luanti.org/api/cdb_schema/",
+	"type": "MOD",
+	"title": "Minerals",
+	"name": "mineral",
+	"short_description": "Minerals & ores.",
+	"dev_state": "WIP",
+	"ai_disclosure": "NONE",
+	"tags": ["crafting"],
+	"content_warnings": null,
+	"license": "MIT",
+	"media_license": "CC-BY-SA-3.0",
+	"repo": "https://codeberg.org/AntumLuanti/mod-mineral",
+	"issue_tracker": "https://codeberg.org/AntumLuanti/mod-mineral/issues",
+	"website": null,
+	"forums": 32545,
+	"video_url": null,
+	"donate_url": null,
+	"translation_url": null
+}
