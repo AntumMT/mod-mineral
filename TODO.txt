@@ -31,17 +31,17 @@ TODO:
 	- moreores ( https://github.com/minetest-mods/moreores ):
 		- silver
 		- mithril
-	- xtraores ( https://forum.minetest.net/viewtopic.php?t=12798 ):
+	- xtraores ( https://forum.luanti.org/viewtopic.php?t=12798 ):
 		- nickel
 		- platinum
 		- cobalt
 		- titanium
 		- uranium
 		- chromium
-	- rainbow ( https://forum.minetest.net/viewtopic.php?t=13519 )
-	- amber ( https://forum.minetest.net/viewtopic.php?t=18186 )
-	- quartz ( https://content.minetest.net/packages/Evergreen/quartz/ )
-	- technic ( https://content.minetest.net/packages/RealBadAngel/technic/ ):
+	- rainbow ( https://forum.luanti.org/viewtopic.php?t=13519 )
+	- amber ( https://forum.luanti.org/viewtopic.php?t=18186 )
+	- quartz ( https://content.luanti.org/packages/Evergreen/quartz/ )
+	- technic ( https://content.luanti.org/packages/RealBadAngel/technic/ ):
 		- lead
 		- uranium
 		- marble

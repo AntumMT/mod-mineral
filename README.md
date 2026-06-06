@@ -1,8 +1,8 @@
-## Minerals for Minetest
+## Minerals for Luanti
 
 ### Description:
 
-This mod is an attempt to unify minerals, such as ores & gems, to reduce dependencies on [MTG](https://github.com/minetest/minetest_game) & [default].
+This mod is an attempt to unify minerals, such as ores & gems, to reduce dependencies on [MTG](https://github.com/luanti-org/minetest_game) & [default].
 
 ***WARNING:** It is not currently recommended to use this mod as it will break "cooking" craft recipes*
 

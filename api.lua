@@ -129,7 +129,7 @@ end
 
 --- Item Definition
 --
---  Same as definition for [minetest.register_craftitem](https://minetest.gitlab.io/minetest/definition-tables/#item-definition)
+--  Same as definition for [core.register_craftitem](https://api.luanti.org/definition-tables/#item-definition)
 --  except also requires ***name*** field. Can optionally contain
 --  ***replaces*** field to register this item as a replacement
 --  for another.
@@ -148,7 +148,7 @@ end
 
 --- Node Definition
 --
---  Same as definition used for [minetest.register_node](https://minetest.gitlab.io/minetest/definition-tables/#node-definition)
+--  Same as definition used for [core.register_node](https://api.luanti.org/definition-tables/#node-definition)
 --  except also requires ***name*** field. Can optionally contain
 --  ***replaces*** field to register this node as a replacement
 --  for another.
@@ -170,7 +170,7 @@ end
 
 --- Ore Definition
 --
---  Same as definition used for [minetest.register_ore](https://minetest.gitlab.io/minetest/definition-tables/#ore-definition).
+--  Same as definition used for [core.register_ore](https://api.luanti.org/definition-tables/#ore-definition).
 --  Can optionally contain ***replaces*** field to register
 --  this ore as a replacement for another.
 --

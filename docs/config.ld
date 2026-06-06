@@ -1,4 +1,4 @@
-title = "Minerals for Minetest"
+title = "Minerals for Luanti"
 project = "minerals"
 format = "markdown"
 not_luadoc = true
