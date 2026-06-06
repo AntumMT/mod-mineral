@@ -35,7 +35,10 @@ This mod is an attempt to unify minerals, such as ores & gems, to reduce depende
 ### Links:
 
 - [Forum](https://forum.luanti.org/viewtopic.php?t=32545)
-- [Git repo](https://github.com/AntumMT/mod-mineral)
+- Git Repo Mirrors:
+    - [Codeberg](https://codeberg.org/AntumLuanti/mod-mineral)
+    - [GitHub](https://github.com/AntumMT/mod-mineral)
+    - [GitLab](https://gitlab.com/AntumMT/mod-mineral)
 - [API](https://antummt.github.io/mod-mineral/docs/api.html)
 
 
